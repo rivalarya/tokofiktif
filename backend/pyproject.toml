@@ -1,0 +1,29 @@
+[project]
+name = "fastapi-starter"
+version = "0.1.0"
+description = "fastapi-starter"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi==0.115.12",
+    "uvicorn[standard]==0.48.0",
+    "python-dotenv==1.2.2",
+    "slowapi==0.1.9",
+]
+
+[tool.ruff]
+line-length = 100
+indent-width = 4
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.6.0",
+    "ruff>=0.15.14",
+]

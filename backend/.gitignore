@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Env
+.env
+!.env.example
+
+# Virtualenv
+.venv/
+venv/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Logs
+logs/
+
+.ruff_cache/
