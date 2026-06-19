@@ -1,0 +1,24 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    ports:
+      - "32100:4000"
+    env_file: .env
+    volumes:
+      - qdrant_data:/app/qdrant_db
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    ports:
+      - "32000:3000"
+    environment:
+      - API_URL=http://backend:4000
+    depends_on:
+      - backend
+
+volumes:
+  qdrant_data:

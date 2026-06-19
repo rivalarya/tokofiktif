@@ -4,15 +4,17 @@ RUN corepack enable && corepack prepare pnpm@11.0.9 --activate
 
 FROM base AS deps
 WORKDIR /app
-COPY package.json pnpm-lock.yaml* pnpm-workspace.yaml ./
+COPY frontend/package.json frontend/pnpm-lock.yaml* frontend/pnpm-workspace.yaml ./frontend/
+WORKDIR /app/frontend
 RUN --mount=type=cache,target=/root/.local/share/pnpm/store \
     pnpm install --frozen-lockfile
 
 FROM base AS builder
 WORKDIR /app
+COPY --from=deps /app/frontend/node_modules ./frontend/node_modules
+COPY frontend/ ./frontend/
+WORKDIR /app/frontend
 ENV CI=true
-COPY --from=deps /app/node_modules ./node_modules
-COPY . .
 RUN pnpm run build
 
 FROM base AS runner
@@ -27,10 +29,10 @@ RUN addgroup --system --gid 1001 nodejs \
 
 USER nextjs
 
-COPY --chown=nextjs:nodejs --from=builder /app/public ./public
-COPY --chown=nextjs:nodejs --from=builder /app/.next ./.next
-COPY --chown=nextjs:nodejs --from=builder /app/node_modules ./node_modules
-COPY --chown=nextjs:nodejs --from=builder /app/package.json ./package.json
+COPY --chown=nextjs:nodejs --from=builder /app/frontend/public ./public
+COPY --chown=nextjs:nodejs --from=builder /app/frontend/.next ./.next
+COPY --chown=nextjs:nodejs --from=builder /app/frontend/node_modules ./node_modules
+COPY --chown=nextjs:nodejs --from=builder /app/frontend/package.json ./package.json
 
 EXPOSE 3000
 CMD ["node", "node_modules/next/dist/bin/next", "start"]

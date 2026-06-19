@@ -1,3 +1,5 @@
+from contextlib import asynccontextmanager
+
 from fastapi import FastAPI, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
@@ -5,8 +7,16 @@ from fastapi.responses import JSONResponse
 from src.config import config
 from src.middlewares import register_cors, register_rate_limiter
 from src.utils import register_all_routes
+from src.utils.ingest import ingest
 
-app = FastAPI()
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    ingest()
+    yield
+
+
+app = FastAPI(lifespan=lifespan)
 
 register_rate_limiter(app)
 register_cors(app)

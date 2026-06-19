@@ -22,3 +22,5 @@ htmlcov/
 logs/
 
 .ruff_cache/
+
+qdrant_db

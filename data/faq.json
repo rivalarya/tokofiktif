@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "category": "Pesanan",
+    "question": "Bagaimana cara melihat status pesanan saya di TokoFiktif?",
+    "answer": "Buka aplikasi TokoFiktif, pilih menu Pesanan Saya di pojok kanan bawah, lalu pilih tab sesuai status: Diproses, Dikirim, Selesai, atau Dibatalkan. Status diperbarui otomatis setiap kali ada perubahan, disertai notifikasi push jika diaktifkan."
+  },
+  {
+    "id": 2,
+    "category": "Pesanan",
+    "question": "Apakah saya bisa mengubah alamat pengiriman setelah pesanan dibuat?",
+    "answer": "Alamat hanya bisa diubah selama status pesanan masih Menunggu Konfirmasi Penjual, maksimal 1 jam setelah checkout, melalui tombol Ubah Alamat di detail pesanan. Setelah status berubah jadi Dikemas atau Dikirim, alamat tidak bisa diubah lagi."
+  },
+  {
+    "id": 3,
+    "category": "Pesanan",
+    "question": "Berapa lama batas waktu pembatalan pesanan?",
+    "answer": "Pesanan dapat dibatalkan gratis selama belum dikonfirmasi penjual, biasanya dalam 6 jam setelah checkout. Jika sudah berstatus Dikemas, pembatalan hanya bisa dilakukan penjual dengan toleransi waktu hingga 24 jam."
+  },
+  {
+    "id": 4,
+    "category": "Pesanan",
+    "question": "Bagaimana cara membatalkan pesanan yang sudah saya buat?",
+    "answer": "Masuk ke Pesanan Saya, pilih pesanan terkait, tekan Batalkan Pesanan, pilih alasan, lalu konfirmasi. Dana dikembalikan ke saldo TokoPay dalam 1x24 jam atau ke rekening asal dalam 3-5 hari kerja."
+  },
+  {
+    "id": 5,
+    "category": "Pesanan",
+    "question": "Mengapa pesanan saya otomatis dibatalkan oleh sistem?",
+    "answer": "Pembatalan otomatis terjadi jika pembayaran tidak diselesaikan dalam 24 jam setelah checkout, atau stok produk habis sebelum penjual mengonfirmasi pesanan dalam 48 jam."
+  },
+  {
+    "id": 6,
+    "category": "Pesanan",
+    "question": "Bisakah saya menggabungkan beberapa pesanan menjadi satu pengiriman?",
+    "answer": "Penggabungan pesanan hanya berlaku untuk pesanan dari penjual yang sama yang belum diproses, dengan mengaktifkan fitur Gabung Pesanan sebelum batas waktu pengemasan pukul 15.00 WIB pada hari yang sama."
+  },
+  {
+    "id": 7,
+    "category": "Pesanan",
+    "question": "Apa yang harus dilakukan jika pesanan saya tidak kunjung diproses penjual?",
+    "answer": "Jika status tetap Menunggu Konfirmasi lebih dari 48 jam, sistem otomatis membatalkan pesanan dan dana dikembalikan penuh. Anda juga bisa mengajukan pembatalan manual lewat tombol Ajukan Pembatalan di detail pesanan."
+  },
+  {
+    "id": 8,
+    "category": "Pesanan",
+    "question": "Bagaimana cara memesan produk dengan beberapa varian dalam satu transaksi?",
+    "answer": "Pada halaman produk, pilih varian seperti warna atau ukuran sebelum menekan Tambah ke Keranjang, lalu ulangi untuk varian lain. Setiap varian tercatat sebagai baris terpisah dalam satu nomor pesanan yang sama."
+  },
+  {
+    "id": 9,
+    "category": "Pesanan",
+    "question": "Apakah ada minimum pembelian untuk satu pesanan?",
+    "answer": "Tidak ada minimum pembelian, kecuali untuk metode pembayaran COD yang mensyaratkan minimal transaksi Rp 50.000 per pesanan."
+  },
+  {
+    "id": 10,
+    "category": "Pesanan",
+    "question": "Bagaimana cara melihat riwayat pesanan yang sudah lebih dari 1 tahun?",
+    "answer": "Riwayat pesanan tersimpan selama 2 tahun, dapat diakses lewat menu Pesanan Saya > Riwayat dengan filter rentang tanggal. Untuk data lebih dari 2 tahun, ajukan permintaan ekspor data ke privacy@tokofiktif.co.id."
+  },
+  {
+    "id": 11,
+    "category": "Pembayaran",
+    "question": "Metode pembayaran apa yang tersedia di TokoFiktif?",
+    "answer": "TokoFiktif mendukung transfer bank (BCA, BNI, Mandiri, BRI), e-wallet (GoPay, OVO, DANA, ShopeePay), kartu kredit/debit (Visa, Mastercard), virtual account, gerai retail (Indomaret, Alfamart), cicilan tanpa kartu kredit (Kredivo, Akulaku), dan COD di area tertentu."
+  },
+  {
+    "id": 12,
+    "category": "Pembayaran",
+    "question": "Mengapa pembayaran saya gagal padahal saldo cukup?",
+    "answer": "Kegagalan biasanya disebabkan sesi pembayaran kedaluwarsa (limit 30 menit), gangguan jaringan bank penerbit, atau batas transaksi harian kartu terlampaui. Dana yang sempat terpotong otomatis kembali dalam 1-3 hari kerja."
+  },
+  {
+    "id": 13,
+    "category": "Pembayaran",
+    "question": "Berapa lama proses refund ke rekening bank?",
+    "answer": "Refund ke rekening bank memerlukan 3-5 hari kerja setelah pengajuan disetujui, sedangkan refund ke saldo TokoPay diproses instan hingga maksimal 1 jam."
+  },
+  {
+    "id": 14,
+    "category": "Pembayaran",
+    "question": "Apakah ada biaya tambahan untuk pembayaran dengan kartu kredit?",
+    "answer": "Ya, transaksi kartu kredit dikenakan biaya admin 2% dari total transaksi, kecuali saat promo Gratis Biaya Admin yang biasanya berlaku setiap tanggal kembar seperti 6.6 atau 9.9."
+  },
+  {
+    "id": 15,
+    "category": "Pembayaran",
+    "question": "Bagaimana cara membayar menggunakan Virtual Account?",
+    "answer": "Pilih metode Virtual Account saat checkout, pilih bank tujuan, sistem menampilkan 16 digit nomor VA. Bayar via ATM, m-banking, atau internet banking sebelum batas waktu 24 jam; pembayaran terverifikasi otomatis dalam 1-5 menit."
+  },
+  {
+    "id": 16,
+    "category": "Pembayaran",
+    "question": "Apa yang terjadi jika saya membayar lebih dari nominal yang ditentukan?",
+    "answer": "Kelebihan pembayaran pada Virtual Account ditolak otomatis oleh sistem bank dan dana kembali ke rekening pengirim dalam 1-2 hari kerja; sistem tidak menerima pembayaran dengan nominal tidak sesuai persis."
+  },
+  {
+    "id": 17,
+    "category": "Pembayaran",
+    "question": "Bisakah saya mengganti metode pembayaran setelah checkout?",
+    "answer": "Tidak bisa. Anda harus membatalkan pesanan jika belum dibayar, lalu membuat pesanan baru dengan metode pembayaran yang diinginkan."
+  },
+  {
+    "id": 18,
+    "category": "Pembayaran",
+    "question": "Bagaimana cara mendapatkan invoice atau bukti pembayaran resmi?",
+    "answer": "Invoice otomatis terkirim ke email terdaftar dalam 10 menit setelah pembayaran berhasil, dan dapat diunduh dalam format PDF melalui menu Pesanan Saya > pilih pesanan > Unduh Invoice."
+  },
+  {
+    "id": 19,
+    "category": "Pembayaran",
+    "question": "Apakah TokoFiktif menerima pembayaran cicilan tanpa kartu kredit?",
+    "answer": "Ya, bekerja sama dengan Kredivo dan Akulaku untuk cicilan 3, 6, dan 12 bulan dengan bunga mulai 2,6% per bulan, tersedia untuk transaksi minimal Rp 500.000."
+  },
+  {
+    "id": 20,
+    "category": "Pembayaran",
+    "question": "Mengapa saldo TokoPay saya tidak bisa ditarik ke rekening bank?",
+    "answer": "Penarikan memerlukan verifikasi KTP yang sudah disetujui dan minimal saldo Rp 10.000. Pastikan juga nama rekening tujuan sama dengan nama akun terverifikasi."
+  },
+  {
+    "id": 21,
+    "category": "Pengiriman",
+    "question": "Berapa estimasi waktu pengiriman ke wilayah Jabodetabek?",
+    "answer": "Estimasi pengiriman Jabodetabek adalah 1-2 hari kerja untuk layanan reguler, atau 3-6 jam menggunakan TokoFiktif Express dengan biaya tambahan Rp 15.000."
+  },
+  {
+    "id": 22,
+    "category": "Pengiriman",
+    "question": "Berapa estimasi waktu pengiriman ke luar Jawa?",
+    "answer": "Pengiriman ke Sumatra, Kalimantan, dan Sulawesi membutuhkan 3-7 hari kerja, sedangkan ke Indonesia Timur seperti Papua dan Maluku membutuhkan 7-14 hari kerja tergantung ketersediaan armada ekspedisi."
+  },
+  {
+    "id": 23,
+    "category": "Pengiriman",
+    "question": "Bagaimana cara melacak posisi paket saya?",
+    "answer": "Buka Pesanan Saya, pilih pesanan berstatus Dikirim, lalu tekan Lacak Paket untuk melihat nomor resi dan riwayat perjalanan secara real-time melalui API kurir seperti JNE, J&T, SiCepat, dan AnterAja."
+  },
+  {
+    "id": 24,
+    "category": "Pengiriman",
+    "question": "Apa yang harus dilakukan jika paket dinyatakan terkirim tetapi tidak saya terima?",
+    "answer": "Laporkan melalui menu Bantuan > Paket Tidak Diterima dalam 3 hari sejak status terkirim. Tim TokoFiktif menginvestigasi bersama kurir dalam 5 hari kerja; jika terbukti hilang, dana dikembalikan penuh."
+  },
+  {
+    "id": 25,
+    "category": "Pengiriman",
+    "question": "Apakah saya bisa memilih jasa ekspedisi sendiri?",
+    "answer": "Ya, pada halaman checkout tersedia pilihan JNE Reguler, J&T Express, SiCepat, AnterAja, dan TokoFiktif Express, dengan estimasi waktu dan biaya berbeda untuk masing-masing."
+  },
+  {
+    "id": 26,
+    "category": "Pengiriman",
+    "question": "Bagaimana jika paket saya rusak saat diterima?",
+    "answer": "Rekam video unboxing dan foto kondisi paket, lalu ajukan komplain melalui Pesanan Saya > Ajukan Komplain dalam 24 jam setelah barang diterima. Klaim barang elektronik tanpa video unboxing berisiko ditolak."
+  },
+  {
+    "id": 27,
+    "category": "Pengiriman",
+    "question": "Apakah ada biaya pengiriman gratis di TokoFiktif?",
+    "answer": "Gratis ongkir berlaku untuk pembelian minimal Rp 150.000 dengan label Gratis Ongkir Xtra, maksimal subsidi Rp 25.000 per transaksi, khusus pelanggan TokoFiktif Plus seharga Rp 19.900 per bulan."
+  },
+  {
+    "id": 28,
+    "category": "Pengiriman",
+    "question": "Bagaimana cara mengubah jadwal pengiriman jika saya tidak ada di rumah?",
+    "answer": "Hubungi kurir melalui nomor yang tertera di halaman lacak paket untuk penjadwalan ulang, atau aktifkan opsi Titip di Loker Paket yang tersedia di beberapa apartemen dan kantor pos rekanan."
+  },
+  {
+    "id": 29,
+    "category": "Pengiriman",
+    "question": "Apakah TokoFiktif melayani pengiriman internasional?",
+    "answer": "Belum. TokoFiktif saat ini hanya melayani pengiriman dalam wilayah NKRI. Pembukaan layanan internasional akan diumumkan melalui tokofiktif.co.id/pengumuman."
+  },
+  {
+    "id": 30,
+    "category": "Pengiriman",
+    "question": "Berapa lama paket disimpan di gudang ekspedisi jika gagal terkirim?",
+    "answer": "Paket yang gagal terkirim disimpan maksimal 3 hari di gudang ekspedisi sebelum dikembalikan ke gudang TokoFiktif, dan pembeli akan dihubungi untuk konfirmasi ulang alamat."
+  },
+  {
+    "id": 31,
+    "category": "Produk",
+    "question": "Bagaimana cara mengetahui stok produk masih tersedia atau tidak?",
+    "answer": "Stok ditampilkan langsung di halaman produk. Jika tertulis Stok Habis, tombol beli berubah menjadi Beri Tahu Saya yang mengirim notifikasi otomatis saat stok tersedia kembali."
+  },
+  {
+    "id": 32,
+    "category": "Produk",
+    "question": "Apakah semua produk elektronik di TokoFiktif bergaransi resmi?",
+    "answer": "Produk berlabel Garansi Resmi mendapat garansi 1 tahun dari distributor resmi di Indonesia, sedangkan produk tanpa label tersebut hanya mendapat garansi toko dari penjual selama 7-30 hari."
+  },
+  {
+    "id": 33,
+    "category": "Produk",
+    "question": "Bagaimana cara mengecek keaslian produk yang dijual?",
+    "answer": "Cari produk dengan badge Mall Resmi atau Original Guarantee yang menandakan barang dari distributor resmi. Nomor IMEI atau serial number bisa dicek ulang di situs resmi merek setelah barang diterima."
+  },
+  {
+    "id": 34,
+    "category": "Produk",
+    "question": "Apa yang dimaksud dengan produk Refurbished di TokoFiktif?",
+    "answer": "Produk refurbished adalah barang yang pernah dikembalikan, diperbaiki, dan diuji ulang oleh teknisi bersertifikat, dijual dengan diskon 20-40% dari harga normal dan bergaransi toko minimal 3 bulan."
+  },
+  {
+    "id": 35,
+    "category": "Produk",
+    "question": "Bisakah saya request foto atau video produk sebelum membeli?",
+    "answer": "Ya, gunakan fitur Chat Penjual di halaman produk. Rata-rata penjual merespons dalam 15 menit pada jam operasional 08.00-21.00 WIB."
+  },
+  {
+    "id": 36,
+    "category": "Produk",
+    "question": "Bagaimana cara mengetahui spesifikasi lengkap suatu produk?",
+    "answer": "Spesifikasi lengkap tersedia di tab Spesifikasi pada halaman produk, mencakup dimensi, berat, daya listrik, bahan, dan kompatibilitas yang diisi penjual sesuai manual produk."
+  },
+  {
+    "id": 37,
+    "category": "Produk",
+    "question": "Apakah harga produk sudah termasuk PPN?",
+    "answer": "Ya, seluruh harga yang ditampilkan sudah termasuk PPN 11% sesuai regulasi perpajakan Indonesia yang berlaku sejak April 2022."
+  },
+  {
+    "id": 38,
+    "category": "Produk",
+    "question": "Bagaimana jika produk yang saya terima berbeda dengan deskripsi?",
+    "answer": "Ajukan komplain Tidak Sesuai Deskripsi melalui Pesanan Saya dalam 3 hari setelah barang diterima, lampirkan foto pembanding antara deskripsi dan barang fisik. Verifikasi maksimal 2 hari kerja."
+  },
+  {
+    "id": 39,
+    "category": "Produk",
+    "question": "Apakah TokoFiktif menjual produk bekas atau preloved?",
+    "answer": "Ya, melalui kategori khusus TokoFiktif Preloved dengan syarat penjual mencantumkan kondisi barang secara jujur dalam skala 1-10 beserta foto asli. Kategori ini tidak mendapat proteksi Original Guarantee."
+  },
+  {
+    "id": 40,
+    "category": "Produk",
+    "question": "Bagaimana cara membandingkan dua produk sekaligus?",
+    "answer": "Tekan ikon Bandingkan pada kartu produk, maksimal 3 produk sejenis, lalu sistem menampilkan tabel perbandingan harga, spesifikasi, dan rating di halaman Perbandingan Produk."
+  },
+  {
+    "id": 41,
+    "category": "Akun",
+    "question": "Bagaimana cara mendaftar akun baru di TokoFiktif?",
+    "answer": "Unduh aplikasi TokoFiktif, pilih Daftar, masukkan nomor HP aktif, verifikasi OTP 6 digit via SMS, lalu lengkapi nama dan buat kata sandi minimal 8 karakter kombinasi huruf dan angka."
+  },
+  {
+    "id": 42,
+    "category": "Akun",
+    "question": "Saya tidak menerima kode OTP saat login, apa yang harus dilakukan?",
+    "answer": "Tunggu 60 detik lalu tekan Kirim Ulang OTP, pastikan nomor HP aktif dan sinyal stabil. Jika setelah 3 kali percobaan tetap gagal, gunakan opsi Login via Email sebagai alternatif."
+  },
+  {
+    "id": 43,
+    "category": "Akun",
+    "question": "Bagaimana cara mengganti nomor HP yang terdaftar di akun TokoFiktif?",
+    "answer": "Masuk ke Profil > Pengaturan Akun > Ubah Nomor HP, verifikasi nomor lama dengan OTP, lalu masukkan dan verifikasi nomor baru. Tidak bisa dilakukan jika ada pesanan berstatus Dikirim yang masih aktif."
+  },
+  {
+    "id": 44,
+    "category": "Akun",
+    "question": "Apakah saya bisa memiliki lebih dari satu akun TokoFiktif?",
+    "answer": "Tidak. Satu nomor KTP hanya dapat diverifikasi untuk satu akun pembeli sesuai Syarat dan Ketentuan pasal 4.2. Akun kedua dengan data identik akan otomatis disuspend."
+  },
+  {
+    "id": 45,
+    "category": "Akun",
+    "question": "Bagaimana cara menghapus akun TokoFiktif secara permanen?",
+    "answer": "Ajukan melalui Profil > Pengaturan Akun > Hapus Akun, pastikan tidak ada pesanan aktif dan saldo TokoPay sudah ditarik habis. Proses penghapusan permanen memerlukan masa tenggang 30 hari sebelum data dihapus total."
+  },
+  {
+    "id": 46,
+    "category": "Akun",
+    "question": "Saya lupa kata sandi, bagaimana cara mereset?",
+    "answer": "Pilih Lupa Kata Sandi di halaman login, masukkan nomor HP atau email terdaftar, lalu ikuti tautan reset yang dikirim dan berlaku selama 15 menit sebelum kedaluwarsa."
+  },
+  {
+    "id": 47,
+    "category": "Akun",
+    "question": "Bagaimana cara memverifikasi akun dengan KTP?",
+    "answer": "Masuk ke Profil > Verifikasi Identitas, unggah foto KTP yang jelas dan foto selfie memegang KTP. Verifikasi otomatis oleh sistem dalam 5-10 menit, atau manual oleh tim dalam maksimal 24 jam."
+  },
+  {
+    "id": 48,
+    "category": "Akun",
+    "question": "Apa keuntungan akun yang sudah terverifikasi?",
+    "answer": "Akun terverifikasi mendapat limit transaksi harian lebih tinggi hingga Rp 50.000.000 dari sebelumnya Rp 5.000.000, akses metode cicilan, serta badge Akun Terpercaya."
+  },
+  {
+    "id": 49,
+    "category": "Akun",
+    "question": "Mengapa akun saya tiba-tiba disuspend?",
+    "answer": "Suspend otomatis terjadi karena indikasi aktivitas mencurigakan seperti login dari banyak device dalam waktu singkat, transaksi fiktif berulang, atau pelanggaran Syarat dan Ketentuan. Banding diajukan ke appeal@tokofiktif.co.id dengan menyertakan KTP."
+  },
+  {
+    "id": 50,
+    "category": "Akun",
+    "question": "Bisakah saya menghubungkan akun TokoFiktif dengan Google atau Facebook?",
+    "answer": "Ya, pilih Masuk dengan Google atau Masuk dengan Facebook di halaman login. Nama dan email otomatis disinkronkan, namun nomor HP tetap wajib diverifikasi terpisah untuk notifikasi pesanan."
+  },
+  {
+    "id": 51,
+    "category": "Voucher & Promo",
+    "question": "Bagaimana cara menggunakan kode voucher saat checkout?",
+    "answer": "Pada halaman checkout, tekan kolom Pakai Voucher, masukkan kode atau pilih dari daftar voucher di akun Anda, lalu sistem otomatis menghitung potongan sebelum konfirmasi pembayaran."
+  },
+  {
+    "id": 52,
+    "category": "Voucher & Promo",
+    "question": "Mengapa voucher saya tidak bisa digunakan?",
+    "answer": "Biasanya karena belum mencapai minimum belanja yang disyaratkan, kategori produk tidak sesuai, sudah melewati tanggal berlaku, atau kuota voucher harian sudah habis."
+  },
+  {
+    "id": 53,
+    "category": "Voucher & Promo",
+    "question": "Berapa lama voucher diskon biasanya berlaku setelah diklaim?",
+    "answer": "Sebagian besar voucher berlaku 7 hari setelah diklaim kecuali tertulis berbeda. Voucher event besar seperti Harbolnas biasanya hanya berlaku 24 jam."
+  },
+  {
+    "id": 54,
+    "category": "Voucher & Promo",
+    "question": "Apakah voucher bisa digabungkan dengan promo gratis ongkir?",
+    "answer": "Bisa, selama keduanya valid untuk produk dan metode pembayaran yang dipilih, dengan maksimal 1 voucher per kategori dalam satu checkout."
+  },
+  {
+    "id": 55,
+    "category": "Voucher & Promo",
+    "question": "Bagaimana cara mendapatkan voucher cashback?",
+    "answer": "Voucher cashback dibagikan melalui notifikasi push, halaman Promo di aplikasi, atau hasil penukaran TokoFiktif Poin, setiap 1.000 poin dapat ditukar menjadi voucher cashback Rp 10.000."
+  },
+  {
+    "id": 56,
+    "category": "Voucher & Promo",
+    "question": "Apa yang terjadi jika pesanan menggunakan voucher dibatalkan?",
+    "answer": "Voucher yang digunakan akan dikembalikan otomatis ke akun Anda jika belum melewati tanggal kedaluwarsa, dan dapat dipakai kembali untuk transaksi selanjutnya."
+  },
+  {
+    "id": 57,
+    "category": "Voucher & Promo",
+    "question": "Bagaimana cara mengetahui voucher mana yang sudah saya miliki?",
+    "answer": "Buka menu Voucher Saya di halaman profil untuk melihat seluruh voucher aktif, sudah terpakai, dan kedaluwarsa, lengkap dengan syarat minimum belanja dan tanggal berakhir."
+  },
+  {
+    "id": 58,
+    "category": "Voucher & Promo",
+    "question": "Apakah promo Flash Sale memiliki batas pembelian per pengguna?",
+    "answer": "Ya, setiap akun dibatasi maksimal 2 unit per produk Flash Sale untuk mencegah penimbunan oleh reseller. Pembelian melebihi batas akan otomatis dibatalkan sistem."
+  },
+  {
+    "id": 59,
+    "category": "Voucher & Promo",
+    "question": "Bagaimana cara mengikuti program TokoFiktif Poin?",
+    "answer": "Setiap transaksi berhasil otomatis mendapat poin sebesar 1% dari nilai transaksi, di mana 1 poin setara Rp 1. Poin dapat ditukar menjadi voucher belanja mulai dari 5.000 poin."
+  },
+  {
+    "id": 60,
+    "category": "Voucher & Promo",
+    "question": "Mengapa diskon yang tertera di halaman produk tidak muncul saat checkout?",
+    "answer": "Terjadi jika diskon merupakan bagian dari promo bundling yang mensyaratkan jumlah pembelian tertentu, atau kuota diskon produk tersebut sudah habis meski stok produk masih tersedia."
+  },
+  {
+    "id": 61,
+    "category": "Return & Komplain",
+    "question": "Apa syarat utama untuk mengajukan pengembalian barang?",
+    "answer": "Retur harus diajukan dalam 7 hari sejak barang diterima, kondisi barang belum digunakan, kemasan dan label original masih lengkap, serta menyertakan video unboxing untuk produk elektronik."
+  },
+  {
+    "id": 62,
+    "category": "Return & Komplain",
+    "question": "Berapa lama proses pengajuan retur disetujui atau ditolak?",
+    "answer": "Penjual memiliki waktu 2 hari kerja untuk merespons pengajuan retur. Jika tidak ada respons, sistem TokoFiktif otomatis menyetujui retur secara sepihak untuk melindungi pembeli."
+  },
+  {
+    "id": 63,
+    "category": "Return & Komplain",
+    "question": "Siapa yang menanggung biaya pengiriman saat barang diretur?",
+    "answer": "Jika retur disebabkan kesalahan penjual seperti barang rusak atau tidak sesuai, biaya pengiriman ditanggung penjual. Jika alasannya berubah pikiran, biaya ditanggung pembeli."
+  },
+  {
+    "id": 64,
+    "category": "Return & Komplain",
+    "question": "Apakah semua kategori produk bisa diretur?",
+    "answer": "Tidak. Produk yang tidak dapat diretur antara lain makanan dan minuman, produk kebersihan pribadi yang sudah dibuka segelnya, dan barang custom atau pesanan khusus."
+  },
+  {
+    "id": 65,
+    "category": "Return & Komplain",
+    "question": "Bagaimana cara mengajukan komplain jika penjual tidak responsif?",
+    "answer": "Jika penjual tidak merespons chat dalam 24 jam, gunakan tombol Eskalasi ke TokoFiktif pada halaman komplain agar tim mediasi turun tangan dan memberikan keputusan dalam 3 hari kerja."
+  },
+  {
+    "id": 66,
+    "category": "Return & Komplain",
+    "question": "Berapa lama dana dikembalikan setelah retur disetujui?",
+    "answer": "Dana dikembalikan ke saldo TokoPay maksimal 1 hari kerja setelah barang retur diterima dan diverifikasi gudang, atau ke rekening bank dalam 3-5 hari kerja jika memilih refund langsung."
+  },
+  {
+    "id": 67,
+    "category": "Return & Komplain",
+    "question": "Apa yang harus dilampirkan saat mengajukan komplain barang rusak?",
+    "answer": "Lampirkan video unboxing tanpa potongan, minimal 3 foto kondisi kerusakan dari berbagai sudut, dan foto label pengiriman yang masih menempel pada paket."
+  },
+  {
+    "id": 68,
+    "category": "Return & Komplain",
+    "question": "Bisakah saya membatalkan pengajuan retur yang sudah dikirim?",
+    "answer": "Bisa, selama status masih Menunggu Persetujuan Penjual melalui tombol Batalkan Retur. Setelah barang dikirim balik ke penjual, pembatalan tidak dapat dilakukan."
+  },
+  {
+    "id": 69,
+    "category": "Return & Komplain",
+    "question": "Apa yang terjadi jika hasil mediasi komplain merugikan saya sebagai pembeli?",
+    "answer": "Anda dapat mengajukan banding melalui sentra.bantuan@tokofiktif.co.id dalam 7 hari setelah keputusan mediasi, dengan menyertakan bukti tambahan untuk ditinjau ulang tim Trust & Safety tingkat kedua."
+  },
+  {
+    "id": 70,
+    "category": "Return & Komplain",
+    "question": "Bagaimana TokoFiktif menentukan siapa yang menerima sanksi dalam komplain?",
+    "answer": "Sanksi diberikan berdasarkan bukti yang diunggah kedua pihak. Penjual yang terbukti bersalah berulang kali dalam 30 hari mendapat penurunan rating toko dan pembatasan jumlah produk aktif."
+  },
+  {
+    "id": 71,
+    "category": "Seller",
+    "question": "Bagaimana cara mendaftar menjadi seller di TokoFiktif?",
+    "answer": "Buka aplikasi, pilih Mulai Berjualan, isi data toko, unggah KTP dan NPWP (opsional untuk skala UMKM), serta rekening bank untuk pencairan dana. Verifikasi memakan waktu 1-2 hari kerja."
+  },
+  {
+    "id": 72,
+    "category": "Seller",
+    "question": "Berapa besar komisi yang dipotong TokoFiktif dari setiap penjualan?",
+    "answer": "Komisi standar sebesar 2,5% dari nilai produk untuk kategori non-elektronik dan 1,8% untuk kategori elektronik, ditambah biaya layanan 1% jika menggunakan fitur Gratis Ongkir Xtra."
+  },
+  {
+    "id": 73,
+    "category": "Seller",
+    "question": "Bagaimana cara melakukan penarikan dana hasil penjualan?",
+    "answer": "Dana masuk ke Saldo Penjual setelah pesanan berstatus Selesai, otomatis 3 hari setelah barang diterima pembeli. Penarikan minimal Rp 50.000 dan diproses dalam 1 hari kerja."
+  },
+  {
+    "id": 74,
+    "category": "Seller",
+    "question": "Apakah ada biaya admin untuk penarikan saldo penjual?",
+    "answer": "Penarikan dikenakan biaya admin tetap Rp 2.500 per transaksi, kecuali seller dengan badge Power Merchant yang mendapat 5 kali penarikan gratis per bulan."
+  },
+  {
+    "id": 75,
+    "category": "Seller",
+    "question": "Bagaimana cara meningkatkan jumlah produk yang bisa diunggah seller baru?",
+    "answer": "Seller baru dibatasi maksimal 50 produk aktif. Batas ini meningkat menjadi 500 produk setelah toko mencapai rating minimal 4.5 dan menyelesaikan 100 transaksi tanpa komplain dalam 60 hari."
+  },
+  {
+    "id": 76,
+    "category": "Seller",
+    "question": "Apa syarat untuk mendapatkan badge Power Merchant?",
+    "answer": "Syaratnya meliputi rating toko minimal 4.7, waktu respons chat rata-rata di bawah 1 jam, tingkat pesanan diproses tepat waktu di atas 95%, dan minimal 200 transaksi sukses dalam 90 hari terakhir."
+  },
+  {
+    "id": 77,
+    "category": "Seller",
+    "question": "Bagaimana cara mengatasi pesanan yang dibatalkan sepihak oleh pembeli?",
+    "answer": "Pembatalan oleh pembeli setelah pesanan diproses tercatat sebagai catatan negatif pada akun pembeli. Seller dapat melaporkan pola pembatalan berulang melalui menu Laporkan Pembeli di pusat bantuan seller."
+  },
+  {
+    "id": 78,
+    "category": "Seller",
+    "question": "Apakah seller bisa mengatur jam operasional toko?",
+    "answer": "Ya, melalui Pusat Penjual > Pengaturan Toko > Jam Operasional. Pesanan yang masuk di luar jam operasional otomatis tertunda tanpa mempengaruhi skor ketepatan waktu."
+  },
+  {
+    "id": 79,
+    "category": "Seller",
+    "question": "Bagaimana cara mengikuti program iklan berbayar untuk meningkatkan penjualan?",
+    "answer": "Gunakan fitur TokoFiktif Ads di Pusat Penjual, tentukan anggaran harian minimal Rp 20.000, pilih kata kunci target. Sistem menampilkan produk di posisi teratas hasil pencarian dengan skema cost-per-click mulai Rp 150."
+  },
+  {
+    "id": 80,
+    "category": "Seller",
+    "question": "Apa yang terjadi jika toko saya mendapat banyak komplain dalam waktu singkat?",
+    "answer": "Jika tingkat komplain melebihi 5% dari total transaksi dalam 30 hari, toko masuk status Pengawasan dengan pembatasan jumlah produk baru, dan dapat ditangguhkan permanen jika tidak membaik dalam 14 hari berikutnya."
+  },
+  {
+    "id": 81,
+    "category": "Aplikasi",
+    "question": "Aplikasi TokoFiktif sering force close, apa solusinya?",
+    "answer": "Pastikan aplikasi sudah diperbarui ke versi terbaru, hapus cache melalui Pengaturan HP > Aplikasi > TokoFiktif > Hapus Cache, dan jika masih bermasalah, uninstall lalu install ulang aplikasi."
+  },
+  {
+    "id": 82,
+    "category": "Aplikasi",
+    "question": "Bagaimana cara memperbarui aplikasi TokoFiktif ke versi terbaru?",
+    "answer": "Buka Google Play Store atau App Store, cari TokoFiktif, lalu tekan Update. Versi terbaru saat ini 8.4.2 yang mencakup perbaikan bug checkout dan peningkatan kecepatan loading halaman produk."
+  },
+  {
+    "id": 83,
+    "category": "Aplikasi",
+    "question": "Mengapa notifikasi pesanan saya tidak muncul di HP?",
+    "answer": "Periksa Pengaturan HP > Aplikasi > TokoFiktif > Notifikasi pastikan aktif, serta cek di dalam aplikasi pada Profil > Pengaturan Notifikasi agar toggle Update Pesanan dalam posisi aktif."
+  },
+  {
+    "id": 84,
+    "category": "Aplikasi",
+    "question": "Aplikasi TokoFiktif memakan banyak memori HP, bagaimana mengatasinya?",
+    "answer": "Gunakan fitur Mode Hemat Data di Pengaturan Aplikasi yang mengurangi resolusi gambar otomatis, atau gunakan TokoFiktif Lite yang berukuran 15MB dibanding versi reguler 95MB."
+  },
+  {
+    "id": 85,
+    "category": "Aplikasi",
+    "question": "Bagaimana cara mengaktifkan mode gelap di aplikasi?",
+    "answer": "Masuk ke Profil > Pengaturan Tampilan > pilih Mode Gelap. Tersedia opsi otomatis mengikuti pengaturan sistem HP atau diaktifkan manual."
+  },
+  {
+    "id": 86,
+    "category": "Aplikasi",
+    "question": "Saya menemukan harga yang salah ditampilkan di aplikasi, ke mana melapor?",
+    "answer": "Laporkan melalui Profil > Bantuan > Laporkan Masalah Aplikasi dengan menyertakan screenshot. Tim teknis menindaklanjuti dalam 24-48 jam dan memberikan kompensasi voucher jika kesalahan terbukti dari sistem."
+  },
+  {
+    "id": 87,
+    "category": "Aplikasi",
+    "question": "Apakah aplikasi TokoFiktif tersedia untuk pengguna iOS dan Android?",
+    "answer": "Ya, tersedia di Google Play Store untuk Android minimal versi 8.0 dan App Store untuk iOS minimal versi 13, dengan ukuran unduhan masing-masing sekitar 95MB dan 110MB."
+  },
+  {
+    "id": 88,
+    "category": "Aplikasi",
+    "question": "Bagaimana cara membersihkan riwayat pencarian di aplikasi?",
+    "answer": "Buka halaman Pencarian, tekan ikon tempat sampah di sebelah judul Pencarian Terakhir, atau tekan lama pada satu kata kunci untuk menghapusnya secara individual."
+  },
+  {
+    "id": 89,
+    "category": "Aplikasi",
+    "question": "Mengapa gambar produk lambat sekali memuat di aplikasi saya?",
+    "answer": "Umumnya disebabkan koneksi internet tidak stabil. Aktifkan Mode Hemat Data di Pengaturan, atau coba beralih dari WiFi ke data seluler atau sebaliknya."
+  },
+  {
+    "id": 90,
+    "category": "Aplikasi",
+    "question": "Bagaimana cara memberikan rating untuk aplikasi TokoFiktif?",
+    "answer": "Rating dapat diberikan langsung melalui Google Play Store atau App Store, atau melalui pop-up Bagaimana Pengalaman Anda yang muncul setelah transaksi ke-5 pada akun Anda."
+  },
+  {
+    "id": 91,
+    "category": "Kebijakan",
+    "question": "Bagaimana TokoFiktif melindungi data pribadi pengguna?",
+    "answer": "Data pribadi dienkripsi menggunakan standar AES-256 dan disimpan di server yang berlokasi di Indonesia sesuai PP No. 71 Tahun 2019, dengan akses terbatas hanya untuk tim yang berwenang sesuai Kebijakan Privasi di tokofiktif.co.id/privasi."
+  },
+  {
+    "id": 92,
+    "category": "Kebijakan",
+    "question": "Apakah data saya dibagikan ke pihak ketiga?",
+    "answer": "Data hanya dibagikan ke mitra ekspedisi dan payment gateway sebatas yang diperlukan untuk memproses transaksi, dan tidak dijual untuk tujuan pemasaran pihak ketiga tanpa persetujuan eksplisit pengguna."
+  },
+  {
+    "id": 93,
+    "category": "Kebijakan",
+    "question": "Di mana saya bisa membaca Syarat dan Ketentuan lengkap TokoFiktif?",
+    "answer": "Dapat diakses melalui tokofiktif.co.id/syarat-ketentuan atau menu Profil > Bantuan > Syarat dan Ketentuan, terakhir diperbarui pada 1 Maret 2026."
+  },
+  {
+    "id": 94,
+    "category": "Kebijakan",
+    "question": "Bagaimana cara mengajukan permintaan penghapusan data pribadi?",
+    "answer": "Kirim permintaan melalui privacy@tokofiktif.co.id dengan menyertakan KTP dan alasan permintaan. Sesuai UU PDP No. 27 Tahun 2022, permintaan diproses dalam maksimal 14 hari kerja."
+  },
+  {
+    "id": 95,
+    "category": "Kebijakan",
+    "question": "Apakah TokoFiktif menggunakan cookies saat saya mengakses situs web?",
+    "answer": "Ya, situs tokofiktif.co.id menggunakan cookies untuk menyimpan preferensi tampilan dan riwayat pencarian. Pengguna dapat menolak cookies non-esensial melalui banner persetujuan saat pertama kali mengakses situs."
+  },
+  {
+    "id": 96,
+    "category": "Kebijakan",
+    "question": "Bagaimana kebijakan TokoFiktif terhadap konten yang melanggar hukum?",
+    "answer": "Produk atau konten yang melanggar hukum, seperti barang ilegal, replika bermerek, atau konten SARA, langsung diturunkan dalam 1 jam setelah terverifikasi, dan akun penjual terkait dapat diblokir permanen sesuai pasal 9 Syarat dan Ketentuan."
+  },
+  {
+    "id": 97,
+    "category": "Kebijakan",
+    "question": "Apakah ada batasan usia untuk membuat akun TokoFiktif?",
+    "answer": "Pengguna wajib berusia minimal 17 tahun atau sudah memiliki KTP untuk membuat akun secara mandiri. Pengguna di bawah usia tersebut harus menggunakan akun yang didaftarkan orang tua atau wali."
+  },
+  {
+    "id": 98,
+    "category": "Kebijakan",
+    "question": "Bagaimana cara TokoFiktif menangani sengketa hukum antara pembeli dan penjual?",
+    "answer": "TokoFiktif berperan sebagai mediator dan bukan pihak dalam transaksi jual-beli. Sengketa yang tidak terselesaikan melalui mediasi internal dapat dilanjutkan ke jalur hukum sesuai domisili Pengadilan Negeri Jakarta Selatan sebagaimana tercantum dalam Syarat dan Ketentuan pasal 12."
+  },
+  {
+    "id": 99,
+    "category": "Kebijakan",
+    "question": "Apakah kebijakan privasi berlaku sama untuk pengguna aplikasi dan situs web?",
+    "answer": "Ya, satu Kebijakan Privasi yang sama berlaku untuk seluruh platform TokoFiktif, yaitu aplikasi Android, iOS, dan situs web tokofiktif.co.id, tanpa perbedaan perlakuan data antar platform."
+  },
+  {
+    "id": 100,
+    "category": "Kebijakan",
+    "question": "Bagaimana saya akan diberitahu jika ada perubahan pada Kebijakan Privasi atau Syarat dan Ketentuan?",
+    "answer": "Perubahan signifikan diberitahukan melalui email terdaftar dan notifikasi in-app minimal 14 hari sebelum kebijakan baru berlaku efektif, sesuai tanggal yang tercantum di halaman tokofiktif.co.id/kebijakan."
+  }
+]
